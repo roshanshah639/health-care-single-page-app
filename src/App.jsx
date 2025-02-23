@@ -7,6 +7,7 @@ import Doctors from "./components/Doctors";
 import Blogs from "./components/Blogs";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import WhatsAppButton from "./components/WhatsappButton";
 
 const App = () => {
   return (
@@ -40,6 +41,11 @@ const App = () => {
       </main>
 
       <Footer />
+
+      <WhatsAppButton
+        phoneNumber="+977- 9813897111"
+        defaultMessage="Hello! How can I help you today?"
+      />
     </div>
   );
 };

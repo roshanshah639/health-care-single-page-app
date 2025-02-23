@@ -11,23 +11,23 @@ const Home = () => {
       {/* Background Overlay */}
       <div
         className="absolute inset-0 bg-[url('assets/img/home.png')] 
-      bg-cover opacity-20 mix-blend-overlay"
+      bg-cover opacity-100 mix-blend-overlay"
       ></div>
 
       {/* Content Container */}
       <div className="relative z-10 w-full lg:w-3/5 space-y-8 py-12 animate-fadeIn">
         {/* Heading */}
-        <h1 className="text-5xl lg:text-6xl font-extralight tracking-wide leading-tight drop-shadow-lg">
+        <h1 className="text-5xl lg:text-6xl font-light tracking-wide leading-tight drop-shadow-lg">
           <span className="block bg-clip-text text-transparent bg-gradient-to-r from-white to-teal-200 animate-slideInLeft">
             Empowering Health Choices
           </span>
-          <span className="block text-3xl lg:text-4xl mt-2 animate-slideInRight">
+          <span className="block text-3xl lg:text-4xl font-light mt-2 animate-slideInRight">
             For a Vibrant Life
           </span>
         </h1>
 
         {/* Subtext */}
-        <p className="text-xl font-light leading-relaxed opacity-90 max-w-xl animate-fadeInUp delay-200">
+        <p className="text-2xl font-light leading-relaxed opacity-90 max-w-xl animate-fadeInUp delay-200">
           Discover cutting-edge solutions designed to enhance your well-being.
           We blend technology and care to deliver personalized health
           experiences that inspire confidence and vitality.
